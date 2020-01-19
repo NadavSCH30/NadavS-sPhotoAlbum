@@ -27,19 +27,25 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="NadavS_sPhotoAlbum\Models\module1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="runserver.py" />
     <Compile Include="NadavS_sPhotoAlbum\__init__.py" />
     <Compile Include="NadavS_sPhotoAlbum\views.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="NadavS_sPhotoAlbum\" />
+    <Folder Include="NadavS_sPhotoAlbum\Models\" />
     <Folder Include="NadavS_sPhotoAlbum\static\" />
     <Folder Include="NadavS_sPhotoAlbum\static\content\" />
     <Folder Include="NadavS_sPhotoAlbum\static\fonts\" />
+    <Folder Include="NadavS_sPhotoAlbum\static\Data\" />
     <Folder Include="NadavS_sPhotoAlbum\static\scripts\" />
     <Folder Include="NadavS_sPhotoAlbum\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="NadavS_sPhotoAlbum\static\Data\4161 capitals.csv" />
     <Content Include="NadavS_sPhotoAlbum\templates\Photos.html" />
     <Content Include="NadavS_sPhotoAlbum\templates\Query.html" />
     <Content Include="requirements.txt" />
